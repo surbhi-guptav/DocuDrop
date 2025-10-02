@@ -4,7 +4,6 @@ from tkinter import filedialog, messagebox
 import os
 import time  
 from PIL import ImageGrab  
-
 import io  
 import threading
 
