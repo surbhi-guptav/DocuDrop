@@ -21,7 +21,6 @@ client = OpenAI(
 )
 
 # --- helpers to build data URLs ---
-
 def _encode_image_path(image_path: str, mime_type: str = "image/png") -> str:
     with open(image_path, "rb") as img:
         encoded = base64.b64encode(img.read()).decode("utf-8")
