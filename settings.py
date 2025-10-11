@@ -52,6 +52,7 @@ def load_settings():
     else:
         return DEFAULT_SETTINGS.copy()
 
+
 def save_settings(settings: dict):
     path = get_settings_path()
     try:
